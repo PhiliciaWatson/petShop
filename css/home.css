@@ -1,0 +1,167 @@
+.nav-bar{
+
+    position:fixed;
+    top:0;
+    background-color:#fffdd0;
+    height:50px;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    z-index:1000;
+}
+
+.btn-togglenav {
+
+    width:50px;
+    height:100%;
+    background-color:#7b300f;
+    background-image:url('./assets/dogBone.png');
+    background-repeat:no-repeat;
+    background-size: 40%;
+    background-position:center;
+    border-radius: 30px;
+    cursor:pointer;
+}
+
+.btn-togglenav:hover {
+opacity:0.5;
+
+}
+
+.nav-bar{
+
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:15px;
+    position:absolute;
+}
+
+.nav-bar ul{
+
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:15px;
+}
+
+.nav-bar ul li{
+    
+    list-style:none;
+    line-height: 60px;
+}
+
+.nav-bar ul li a {
+
+    display:block;
+    height:100%;
+    padding: 0 10px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color: black;
+}
+
+.nav-sidebar{
+
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:50px;
+    height:calc(100vh - 50px);
+    padding:0 5px;
+    background-color:#1b1b1b;
+    z-index:1000;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2px;
+}
+
+.nav-sidebar ul{
+
+   padding-top:15px;
+   overflow:hidden;
+   visibility:hidden;
+
+}
+
+.nav-sidebar ul li{
+
+    line-height:60px;
+    list-style:none;
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a{
+
+    display:block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform:uppercase;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space:nowrap ;
+    opacity: 0;
+    transition: all 0.3 ease-in-out;
+
+}
+
+.nav-sidebar ul li a{
+
+    background-color:#222;
+}
+
+#twitter-image{
+
+    height:50px;
+    width:50px;
+    border-radius:20px;
+}
+
+footer{
+    background-color: #fffdd0;
+}
+
+#product-1{
+
+    box-sizing: border-box;
+    background-color: #7b300f;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#product-2{
+
+    box-sizing:border-box;
+    background-color: #7b300f;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#image-1{
+
+    border: 2px solid lightgray;
+    border-radius:12px;
+    box-sizing: content-box;
+    background-color:white;
+    height:200px;
+    width:200px;
+}
+
+
+
+#ratings{
+
+    background: none;
+    height:60px;
+    width:100px;
+
+}
+
+#image-2{
+
+    border: 2px solid lightgray;
+    border-radius:12px;
+    box-sizing: content-box;
+    background-color:white;
+    height:200px;
+    width:200px;
+}
+
