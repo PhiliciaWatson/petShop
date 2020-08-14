@@ -1,6 +1,5 @@
 .nav-bar{
 
-    position:fixed;
     top:0;
     background-color:#fffdd0;
     height:50px;
@@ -8,6 +7,7 @@
     display:flex;
     flex-wrap:wrap;
     z-index:1000;
+    
 }
 
 .btn-togglenav {
@@ -15,7 +15,7 @@
     width:50px;
     height:100%;
     background-color:#7b300f;
-    background-image:url('./assets/dogBone.png');
+    background-image:url('/assets/cart.png');
     background-repeat:no-repeat;
     background-size: 40%;
     background-position:center;
@@ -24,16 +24,9 @@
 }
 
 .btn-togglenav:hover {
-opacity:0.5;
 
-}
+    opacity:0.5;
 
-.nav-bar{
-
-    display:flex;
-    flex-wrap:wrap;
-    padding-left:15px;
-    position:absolute;
 }
 
 .nav-bar ul{
@@ -63,9 +56,9 @@ opacity:0.5;
 
     position:fixed;
     left:0;
-    bottom:0;
+    bottom:50px;
     width:50px;
-    height:calc(100vh - 50px);
+    height:calc(100vh - 117px);
     padding:0 5px;
     background-color:#1b1b1b;
     z-index:1000;
@@ -116,7 +109,12 @@ opacity:0.5;
 }
 
 footer{
+
     background-color: #fffdd0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 
 #product-1{
@@ -145,16 +143,6 @@ footer{
     width:200px;
 }
 
-
-
-#ratings{
-
-    background: none;
-    height:60px;
-    width:100px;
-
-}
-
 #image-2{
 
     border: 2px solid lightgray;
@@ -164,4 +152,3 @@ footer{
     height:200px;
     width:200px;
 }
-

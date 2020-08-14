@@ -1,3 +1,9 @@
+body{
+
+    background-color:#7b300f;
+
+}
+
 nav{
 
     top:0;
@@ -13,9 +19,10 @@ nav{
 
 footer{
 
-    background-color:#fffdd0;
-    position: absolute;
+    position:absolute;
     bottom:0;
     width:100%;
 
+
 }
+
