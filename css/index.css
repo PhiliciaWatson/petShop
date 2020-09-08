@@ -1,0 +1,80 @@
+*{
+    overflow-x:hidden;
+}
+.navbar{
+
+    background-color:#fffdd0;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    position:relative;
+    top: 0px;
+    padding:0px;
+    margin:0px;
+    height:40px;
+    overflow:visible;
+    border: 4px black;
+    border-style: double;
+}
+
+.navbar a{
+
+    padding-right:100px;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    font-size:21px;
+    z-index:1000;
+}
+
+.navbar a:hover{
+
+    text-decoration-line: none;
+    color:black;
+}
+
+#logo{
+
+    background-image:linear-gradient(#870000,#904646, #190a05); 
+    border-radius:0px 0px 80px 80px; 
+    padding:10px;
+    position:relative;
+    box-shadow:gray 0px 2px 2px 2px;
+    bottom:13px;
+    left:10px;
+    height:70px;
+    width:132px;
+    z-index:1000;
+    color:black;
+    font-size:21px;
+}
+
+#logo:hover{
+
+    text-decoration-line: none;
+    color:yellow;
+}
+
+footer{
+   
+    text-align:center;
+}
+
+footer a{
+
+    padding-right:5px;
+}
+
+#inter-link{
+
+    background-color:rgb(98, 96, 96);
+}
+
+#inter-link a{
+
+    color:black;
+}
+
+#inter-link a:hover{
+
+    text-decoration: none;
+}

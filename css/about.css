@@ -78,7 +78,9 @@
 
 .carousel-item img{
 
-    height: 300px;
+    height: 500px;
+    overflow-y:hidden;
+    max-height:500px;
 }
 
 .carousel-inner{
@@ -91,3 +93,29 @@
     height:500px;
     border:2px red solid;
 }
+
+footer{
+   
+    text-align:center;
+}
+
+footer a{
+
+    padding-right:5px;
+}
+
+#inter-link{
+
+    background-color:rgb(98, 96, 96);
+}
+
+#inter-link a{
+
+    color:black;
+}
+
+#inter-link a:hover{
+
+    text-decoration: none;
+}
+
