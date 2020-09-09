@@ -10,39 +10,28 @@
 
 <body style='background-color:#7b300f;'>
 
-    <div class="navbar w-100" style="position:fixed;z-index:1000">
+    <div class="navbar w-100" style="position:fixed;z-index:1000" id="header">
         <a href="#" id="logo"><img src="./assets/dogBone.png" height="25px" width="25px"> Petshop</a>
-      <div style="position:relative;bottom:28px;">
-  
-          <a href="/index.html">About</a>
-          <a href="/products.html">Products</a>
-          <a href="/index.html">Home</a>
-      
+    <div style="position:relative;bottom:28px;">
+        <a href="/index.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/index.html">Home</a>
       </div>
   </div>
 
-<div id='container'>
-    <div id='main'>
-
-        <a href="https://twitter.com/"><img src='./assets/twitter.png' height='150px' width='150'id='twitter'></a> 
-
-        <a href="https://www.facebook.com/"><img src='./assets/facebook.png' height='150px' width='150'id='facebook'></a> 
-        
-        <a href="https://www.instagram.com/"><img src='./assets/instagram.png' height='150px' width='150'  id='instagram'></a> 
-        
-        <a href="#"><img src='./assets/googlePlus.png' height='150px' width='150'id='googlePlus'></a>
-        
-        <a href="https://www.snapchat.com/"><img src='./assets/snapchat.png' height='150px' width='150'id='snapchat'></a>
-        
-        <a href="https://www.youtube.com/"><img src='./assets/youtube.png' height='150px' width='150'id='youtube'></a>
-        
-        <a href="https://www.tumblr.com/"><img src='./assets/tumblr.png' height='150px' width='150'id='tumblr'></a>    
-
-
-</div>
+<div id="container" >
+    <div id="main" class="text-center">
+        <div class="card align-items-center p-4">
+            <input type="text" placeholder="Subject" class="align-self-left w-50"><br>
+            <textarea width="50px" placeholder="Message" class="align-self-left w-50"></textarea><br>
+            <button class="btn" id="button"><b>Submit</b></button>
+        </div>
+    </div>
 </div>
 
-<footer>
+<!-- Below is the footer -->
+
+<footer id="footer">
     <div style=' background-color:#fffdd0;border:5px black double;'>
        <a href="./index.html"><img src="./assets/dogBone.png" height="50px" width="50px" style="padding:10px">Pet shop</a>
         
