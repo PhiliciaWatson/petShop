@@ -102,7 +102,6 @@ for(var i= 0; i< posts.length; i ++){
     var des = '<p>'+posts[i].description+'</p></div>';
     var concatThis = heading + pic + price + des;
     postHTML = postHTML + concatThis;
-            
 }
         
         console.log(postHTML);

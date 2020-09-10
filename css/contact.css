@@ -4,35 +4,23 @@
     padding:0;
 }
 
-/* this is for overlapping footer */
 html, body{
     
     height: 100%;
-    
 }
 
-#container{
-    
-    min-height:100%;
+input{
+
+    border:lightblue 2px outset; 
+    border-radius:50px;  
+    outline:none;
 }
 
-#main{
+textarea{
 
-    overflow:auto;
-    padding-bottom: 100px;
-    margin:50px;
+    height:200px; 
+    border:lightblue 4px double
 }
-
-#footer{
-
-    position:relative;
-    margin-top:-100px;
-    clear:both;
-}
-
-
-/* this is for footer */
-
 
 .navbar{
 
@@ -113,14 +101,6 @@ footer a{
     text-decoration: none;
 }
 
-#button{
 
-    background-color:red;
-    width:170px;
-    background-image: url('/assets/paperairplane.png');
-    background-repeat: no-repeat;
-    background-position-x: right;
-    font-size:17px;
-    color:white;
-}
+
 

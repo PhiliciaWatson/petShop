@@ -1,6 +1,14 @@
 *{
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
+    margin:0;
+    padding:0;
 }
+
+html, body{
+    
+    height: 100%;
+}
+
 .navbar{
 
     background-color:#fffdd0;
@@ -69,23 +77,9 @@
     height:300px
 }
 
-.carousel-item{
+#carouselExampleSlidesOnly{
 
-    height: auto;
-
-
-} 
-
-.carousel-item img{
-
-    height: 500px;
-    overflow-y:hidden;
-    max-height:500px;
-}
-
-.carousel-inner{
-
-    height:500px;
+    border: red 2px solid
 }
 
 #slideshow{
@@ -118,4 +112,6 @@ footer a{
 
     text-decoration: none;
 }
+
+/* Below is for hover images */
 
