@@ -19,28 +19,43 @@
       </div>
   </div>
 
-<div class="container-fluid h-100 mt-5 text-center">
+<div class="container-fluid h-100 text-center">
     <img src="/assets/cat.png" style="position:relative; top:40px;right:70px">
     <h1>Contact Us</h1>
     <p>Let us know about any questions, conserns, comments you have about us</p>
     <img src="/assets/dog.png" style="position:absolute; top:410px;left:983px;">
         <div class="m-auto col-6">
-            <form class=" w-100 m-auto pt-5">
-
-                <input type="text" class="col-4 float-right" placeholder="LastName">
-                <input type="text" class="col-4 float-left" placeholder="FirstName">
-                <br>
-                <br>
-                    <input type="text" class="col-10 float-left" placeholder="Email">
-                    <br>
-                    <br>
-                    <input type="text" class="col-10 float-left" placeholder="Subject">
-                    <br>
-                    <br>
-                    <textarea class="w-100 d-flex justify-self-start" placeholder="Message"></textarea>
-                    <br>
-                    <div class=' btn btn-primary w-25 float-right'>Submit</div>
-            </form>
+            <form action onSubmit="return false">
+                <div class="row">
+                <div class="form-group col-6">
+                    <label for="exampleInputEmail1">First Name</label>
+                    <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group col-6">
+                    <label for="exampleInputEmail1">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp">
+                  </div>
+                </div>
+                <div class="form-group m-auto">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Subject</label>
+                    <select class="form-control" id="Subject">
+                      <option>Review</option>
+                      <option>Consern</option>
+                      <option>Problem</option>
+                      <option>Critism</option>
+                    </select>
+                  </div>
+                <div class="form-group form-check " style="border:2px red solid">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control d-flex justify-content-start" id="Message" rows="3"></textarea>
+                </div>
+            <button type="submit" class="btn btn-primary" onclick="Submit()" value="">Submit</button>
+              </form>
         </div>   
 </div>
 

@@ -1,6 +1,15 @@
 *{
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
+    margin:0;
+    padding:0;
 }
+
+html, body{
+    
+    height: 100%;
+    padding-top:19px;
+}
+
 .navbar{
 
     background-color:#fffdd0;
@@ -56,14 +65,13 @@
 
 
 
-#products{
+/* #products{
 
-    margin: 60px;
     display:grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1em;
-
-}
+    height:auto
+} */
 
 #product-image{
 

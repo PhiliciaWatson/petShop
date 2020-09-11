@@ -96,10 +96,10 @@ var postHTML = '';
     
 for(var i= 0; i< posts.length; i ++){
 
-    var heading = "<div class='card text-center'><h5>"+posts[i].title+"</h5>";
-    var pic = '<img src ="' +posts[i].picture+ '" width=150px; height=150px id="product-image"><br/>';
+    var heading = "<div class='card text-center col'><div class='m-auto h-100' style='border: 2px orange solid'><h5>"+posts[i].title+"</h5>";
+    var pic = '<img src ="' +posts[i].picture+ '" width=150px; height=150px class="image-fluid m-auto"><br/>';
     var price = '<p><b>$'+posts[i].price+'</b></p>';
-    var des = '<p>'+posts[i].description+'</p></div>';
+    var des = '<p>'+posts[i].description+'</p></div></div>';
     var concatThis = heading + pic + price + des;
     postHTML = postHTML + concatThis;
 }
