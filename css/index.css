@@ -92,7 +92,7 @@ footer a{
 .container-fluid{
 
     background-image:url('/assets/groupPets.png');
-    background-color:white;
+    background-color:lightblue;
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-position-x: center;
