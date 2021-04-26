@@ -8,11 +8,15 @@ a:hover{
     color:orange;
 }
 
+#parallax-container{
+  height:25%;
+}
+
 #parallax{
     /* The image used */
     background-image: url("assests/pngguru.com\ \(7\).png");
     /* Set a specific height */
-    height:65vh;
+    height:400px;
     width:100%;
     /* Create the parallax scrolling effect */
      background-attachment: fixed; 
@@ -23,15 +27,52 @@ a:hover{
   @media only screen and (max-width: 880px){
 
     #parallax{
-     background-image:url('assests/pngguru.com\ \(6\).png');
-     height:55vh;
+     background-image:url('assests/klipartz.com\ \(2\).png');
+     height:370px;
     }
   }
 
-  @media only screen and (max-width: 473px){
+  @media only screen and (max-width: 700px){
 
     #parallax{
+     background-image:url('assests/klipartz.com\ \(3\).png');
+      height:350px;
+    }
+  }
+
+ @media only screen and (max-width: 614px){
+ 
+    #parallax{
+     background-image:url('assests/klipartz.com\ \(1\).png');
+      height:320px;
+    }
+  }
+  @media only screen and (max-width: 519px){
+ 
+    #parallax{
+     background-image:url('assests/klipartz.com\ \(5\).png');
+      height:269px;
+    }
+  }
+  @media only screen and (max-width: 450px){
+ 
+    #parallax{
+     background-image:url('assests/klipartz.com\ \(5\).png');
+      height:267px;
+    }
+  }
+ 
+  @media only screen and (max-width: 380px){
+ 
+    #parallax{
      background-image:url('assests/pngguru.com\ \(9\).png');
-     height:40vh;
+     height:239px;
+    }
+  }
+  @media only screen and (max-width: 273px){
+ 
+    #parallax{
+     background-image:url('assests/pngguru.com\ \(9\).png');
+     height:199px;
     }
   }
