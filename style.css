@@ -1,0 +1,17 @@
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:orange;
+}
+
+#banner-img{
+    background-color:pink;
+
+}
+
+#sticky-image{
+    margin:auto;
+}
