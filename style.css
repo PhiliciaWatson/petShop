@@ -8,23 +8,25 @@ a:hover{
     color:orange;
 }
 
-#parallax-container{
-  height:25%;
-}
-
 #parallax{
     /* The image used */
-    background-image: url("assests/pngguru.com\ \(7\).png");
+    /* background-image: url("assests/pngguru.com\ \(7\).png"); */
     /* Set a specific height */
-    height:400px;
-    width:100%;
+    /* height: calc(100vh - 25vh); */
+    /* width:100%; */
+  z-index:-1;
+  position:fixed;
     /* Create the parallax scrolling effect */
-     background-attachment: fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
- } 
+     /* background-attachment: fixed; 
+    background-position: center; */
+    /* background-repeat: no-repeat; */
 
-  @media only screen and (max-width: 880px){
+ } 
+ /* #height{
+       padding-top:40vh;
+ } */
+
+   /* @media only screen and (max-width: 880px){
 
     #parallax{
      background-image:url('assests/klipartz.com\ \(2\).png');
@@ -75,4 +77,4 @@ a:hover{
      background-image:url('assests/pngguru.com\ \(9\).png');
      height:199px;
     }
-  }
+  } */
