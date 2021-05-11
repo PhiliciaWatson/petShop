@@ -13,16 +13,16 @@
 
     <nav class="navbar navbar-light bg-light m-0 ">
       <a class="navbar-brand">
-        <img src="assests/iconfinder_Pets_3775229.png">Affectionate Animals
+        <img src="/petShop/assests/logo.png">Affectionate Animals
     </a>
     <div class="nav-link">
-      <a href="about.html">About</a>
+      <a href="/petShop/aboutPage/about.html">About</a>
     </div>
     <div class="nav-link">
-        <a href="contact.html">Contact</a>
+        <a href="/petShop/contactPage/contact.html">Contact</a>
       </div>
       <div class="nav-link">
-        <a href="products.html">Products</a>
+        <a href="/petShop/productsPage/products.html">Products</a>
       </div>
       <!-- <form class="form-inline row">
         <input class="form-control col-3" type="search" placeholder="Search" aria-label="Search">
@@ -32,9 +32,26 @@
     <!-- NAVBAR -->
 
     <!-- PARALLAX HERE -->
-      <!-- <img src="assests/pngguru.com (7).png" class="img-fluid"> -->
-      <div class="parallax">
-
+      <div id="carouselExampleFade" class="carousel .carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/petShop/assests/animals.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/petShop/assests/googlePlus.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/petShop/assests/linkedin.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     <!-- PARALLAX HERE -->
 
@@ -44,12 +61,45 @@
   <!-- CONTENT -->
 
     <!-- FOOTER -->
-    <footer class="bg-dark text-white text-center container-fluid">
+    <footer class="bg-dark text-white text-center container-fluid pt-3">
       <div class="d-flex row justify-content-between">
         <div class="col-4">
-          <em>STAY CONNECTED:</em>
-          <br>
-          <br>
+
+          <div>
+            <h5 class="pb-3"><b>Commitment to you:</b></h5>
+            <p class="quote"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt dignissimos consequatur, explicabo modi nesciunt eaque eum velit corrupti quis molestias mollitia vitae veniam, soluta libero porro laudantium impedit quod accusantium similique doloremque beatae aut.</em></p>
+          </div>
+          <div>
+            <a href="#"><img src="/petShop/assests/googlePlus.png"></a>
+            <a href="#"><img src="/petShop/assests/twitter.png"></a>
+            <a href="#"><img src="/petShop/assests/linkedin.png"></a>
+            <a href="#"><img src="/petShop/assests/facebook.png"></a>
+          </div>
+        </div>
+
+
+        <div class="col">
+
+             <!-- Navigation -->
+             <h5 class="pb-3">Navigation:</h5>
+             <div class="nav-item">
+               <a href="about.html" class="nav-link text-primary">About</a>
+             </div>
+             <div class="nav-item">
+                 <a href="contact.html" class="nav-link">Contact</a>
+               </div>
+               <div class="nav-link">
+                 <a href="products.html" class="nav-link">Products</a>
+               </div>
+
+        </div>
+
+
+
+        <div class="col-4">
+
+          <h5 class="pb-3">STAY CONNECTED:</h5>
+         
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -60,43 +110,17 @@
           </div>
           <div class="mb-3">
             <button type="submit" class="btn btn-danger">Submit</button>
-            <br>
-            <br>
-           <div>
-            <a href="#"><img src="assests/googlePlus.png"></a>
-            <a href="#"><img src="assests/twitter.png"></a>
-            <a href="#"><img src="assests/linkedin.png"></a>
-            <a href="#"><img src="assests/facebook.png"></a>
+          </div>
+        </div>
 
-           </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div>
-            <h5 class="pb-3"><b>Commitment to you:</b></h5>
-            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt dignissimos consequatur, explicabo modi nesciunt eaque eum velit corrupti quis molestias mollitia vitae veniam, soluta libero porro laudantium impedit quod accusantium similique doloremque beatae aut.</em></p>
-          </div>
-        </div>
-          <div class="col-4">
-          <!-- Navigation -->
-          <h5 class="pb-3">Navigation:</h5>
-          <div class="nav-item">
-            <a href="about.html" class="nav-link text-primary">About</a>
-          </div>
-          <div class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
-            </div>
-            <div class="nav-link">
-              <a href="products.html" class="nav-link">Products</a>
-            </div>
-          </div>
-        </div>
+      </div>
       
-        <hr class="text-dark"> 
         <div class="align-center pb-3 light-text">
           <p><em>@Copyright Philicia Watson 2021</em></p>
         </div>
+
       </footer>
+
     <!-- FOOTER -->
     <script src="app.js"></script>
 </body>
