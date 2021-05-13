@@ -105,11 +105,11 @@ var postHTML = "";
 
 for(var i = 0; i < products.length;i++){
 
-    var productImage = '<div class="card mb-3 col-sm-3 p-2 text-center"><img src="'+products[i].image+'"class="p-2" style="height:100px;width:100px;margin:auto;"><div class="card-body">'
-    var productTitle = '<h5 class="card-title">'+products[i].title+'</h5>'
+    var productImage = '<div class="col-sm-4 p-2"><div class="card text-center"><img src="'+products[i].image+'"class="p-2" style="height:120px;width:100px;margin:auto"><div class="card-body">'
+    var productTitle = '<h5 class="card-title" style="font-family:italic">'+products[i].title+'</h5>'
     var productPrice = '<p class="card-text"><b>$'+products[i].price+'</b></p>'
-    var productDescription = '<p class="card-text"><em>'+products[i].description+'</em></p>'
-    var buttons = '<button class="btn btn-primary mb-2">Purchase</button><button class="btn btn-success">Add to cart</button></div></div>'
+    var productDescription = '<p class="card-text"><span style="font-family:italic">'+products[i].description+'</span></p>'
+    var buttons = '<button class="btn btn-primary m-2">Purchase</button><button class="btn btn-success m-2">Add to cart</button></div></div></div>'
 
     var concat = productImage+ productTitle+productPrice+productDescription+buttons;
     postHTML = postHTML+concat
