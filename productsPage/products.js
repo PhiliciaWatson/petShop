@@ -105,7 +105,7 @@ var postHTML = "";
 
 for(var i = 0; i < products.length;i++){
 
-    var productImage = '<div class="card mb-3 col-2 p-2 text-center"><img src="'+products[i].image+'"class="p-2"><div class="card-body">'
+    var productImage = '<div class="card mb-3 col-sm-3 p-2 text-center"><img src="'+products[i].image+'"class="p-2" style="height:100px;width:100px;margin:auto;"><div class="card-body">'
     var productTitle = '<h5 class="card-title">'+products[i].title+'</h5>'
     var productPrice = '<p class="card-text"><b>$'+products[i].price+'</b></p>'
     var productDescription = '<p class="card-text"><em>'+products[i].description+'</em></p>'
