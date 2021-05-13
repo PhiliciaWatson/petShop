@@ -38,8 +38,10 @@ background-size: cover; */
 color:lightsteelblue;
 opacity: 20%;
 }
-#form{
-  background:radial-gradient(#afafc7, #577Daf)
+
+.row{
+  padding-left:50px;
+  padding-right:50px;
 }
 /* .img-fluid{
 z-index:-1;
