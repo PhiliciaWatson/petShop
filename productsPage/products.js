@@ -1,98 +1,98 @@
 const products = [
     {
         title:'Product1',
-        image:'/petShop/images/pedigree.png',
+        image:'/images/pedigree.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product2',
-        image:'/petShop/images/purplefood.png',
+        image:'/images/purplefood.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product3',
-        image:'/petShop/images/pedigree2.png',
+        image:'/images/pedigree2.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product4',
-        image:'/petShop/images/dogchow.png',
+        image:'/images/dogchow.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product5',
-        image:'/petShop/images/whiskasFood.png',
+        image:'/images/whiskasFood.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product6',
-        image:'/petShop/images/purinaCat.png',
+        image:'/images/purinaCat.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product7',
-        image:'/petShop/images/catComplete.png',
+        image:'/images/catComplete.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product8',
-        image:'/petShop/images/kitCat.png',
+        image:'/images/kitCat.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product9',
-        image:'/petShop/images/Nutrirve.png',
+        image:'/images/Nutrirve.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product10',
-        image:'/petShop/images/Rio.png',
+        image:'/images/Rio.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product11',
-        image:'/petShop/images/tretra.png',
+        image:'/images/tretra.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product12',
-        image:'/petShop/images/chichlide.png',
+        image:'/images/chichlide.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product13',
-        image:'/petShop/images/Crispy.png',
+        image:'/images/Crispy.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product14',
-        image:'/petShop/images/Atrelexa.png',
+        image:'/images/Atrelexa.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
