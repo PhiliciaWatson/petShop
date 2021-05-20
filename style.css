@@ -20,9 +20,14 @@ nav{
   color: black !important;
   font-size: 18px !important;
 }
-
 .navbar{
   background-image: url('./images/hearts(2).png');
+}
+/* CONTENT */
+h1{
+  font-family: 'Diplomata SC', cursive;
+  color:gray;
+  font-size:smaller
 }
 /* FOR THE FOOTER */
 
