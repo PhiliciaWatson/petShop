@@ -1,44 +1,66 @@
-
+/* FOR THE NAVBAR */
 .navbar a{
-    color:black;
-    text-decoration: none;
+  color:black;
+  text-decoration: none;
+  font-family: 'Gorditas', cursive;
+  font-size:15px
 }
-
+nav{
+background-color: #89CFF0!important;
+}
 .navbar a:hover{
-    color:orange;
+  color:white;
+}
+.navbar-brand{
+background-image: url('../images/heart.png');
+background-repeat: no-repeat;
+background-position: center;
+font-family: 'Fredoka One', cursive;
+border:white double 7px;
+color: black !important;
+font-size: 18px !important;
 }
 
-.nav-link:hover{
-  color:gray
+.navbar{
+background-image: url('../images/hearts\(2\).png');
+}
+/* CONTENT */
+h1{
+  font-family: 'Diplomata SC', cursive;
+  color:gray;
+}
+/* FOR THE FOOTER */
+
+
+footer{
+background-color: #89CFF0 !important;
+background-image: url('../images/hearts\(2\).png');
+}
+
+footer .nav-link{
+color:black !important;
+font-size: small;
+font-family: 'Fredoka One', cursive;
+}
+
+footer .nav-link:hover{
+color:blue !important;
+}
+
+footer h5{
+font-family: 'Gorditas', cursive;
+font-size:15px;
+border:white double 7px;
+}
+
+footer .form-label{
+font-family: 'Gorditas', cursive;
+font-size:15px
 }
 
 .quote{
-  text-align:left;
-  padding-bottom:12px;
-  padding-left:12px;
+text-align:left;
+padding-bottom:12px;
+padding-left:12px;
+font-size: small;
 }
-
-
-/* #carouselExampleFade { */
-  /* The image used */
-  /* background-image:url("assests/animals.png"); */
-
-  /* Set a specific height */
-  /* min-height: 500px; 
-  z-index:1;
-  position:fixed; */
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-/* } */
-
-.light-text{
-  color:lightsteelblue;
-  opacity: 20%;
-}
-/* .img-fluid{
-  z-index:-1;
-  position:fixed
-} */

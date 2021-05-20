@@ -1,98 +1,98 @@
 const products = [
     {
         title:'Product1',
-        image:'/images/pedigree.png',
+        image:'../images/pedigree.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product2',
-        image:'/images/purplefood.png',
+        image:'../images/purplefood.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product3',
-        image:'/images/pedigree2.png',
+        image:'../images/pedigree2.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product4',
-        image:'/images/dogchow.png',
+        image:'../images/dogchow.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product5',
-        image:'/images/whiskasFood.png',
+        image:'../images/whiskasFood.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product6',
-        image:'/images/purinaCat.png',
+        image:'../images/purinaCat.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product7',
-        image:'/images/catComplete.png',
+        image:'../images/catComplete.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product8',
-        image:'/images/kitCat.png',
+        image:'../images/kitCat.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product9',
-        image:'/images/Nutrirve.png',
+        image:'../images/Nutrirve.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product10',
-        image:'/images/Rio.png',
+        image:'../images/Rio.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product11',
-        image:'/images/tretra.png',
+        image:'../images/tretra.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product12',
-        image:'/images/chichlide.png',
+        image:'../images/chichlide.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product13',
-        image:'/images/Crispy.png',
+        image:'../images/Crispy.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
     },
     {
         title:'Product14',
-        image:'/images/Atrelexa.png',
+        image:'../images/Atrelexa.png',
         price: 20.99,
         description:'lcekkmewkoxmqwkomsowmsko2wmdkosowmkdmkodwmkowmd'
 
