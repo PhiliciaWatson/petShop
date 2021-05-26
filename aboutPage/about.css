@@ -22,7 +22,8 @@ font-size: 18px !important;
 }
 
 .navbar{
-background-image: url('../images/hearts\(2\).png');
+  background-image:url('../assests/Bones.png') !important;
+  background-size: cover;
 }
 /* CONTENT */
 h1{
@@ -34,7 +35,6 @@ h1{
 
 footer{
 background-color: #89CFF0 !important;
-background-image: url('../images/hearts\(2\).png');
 }
 
 footer .nav-link{

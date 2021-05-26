@@ -12,7 +12,7 @@ nav{
     color:white;
 }
 .navbar-brand{
-  background-image: url('../petShop/images/heart.png');
+  background-image: url('../images/heart.png');
   background-repeat: no-repeat;
   background-position: center;
   font-family: 'Fredoka One', cursive;
@@ -20,9 +20,12 @@ nav{
   color: black !important;
   font-size: 18px !important;
 }
+
 .navbar{
-  background-image: url('./images/hearts(2).png');
+  background-image:url('./assests/Bones.png') !important;
+  background-size: cover;
 }
+
 /* CONTENT */
 h1{
   font-family: 'Diplomata SC', cursive;
@@ -34,7 +37,7 @@ h1{
 
 footer{
   background-color: #89CFF0 !important;
-  background-image: url('./images/hearts(2).png');
+  /* background-image: url('./assests/Bones.png'); */
 }
 
 footer .nav-link{
